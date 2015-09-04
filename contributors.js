@@ -6,7 +6,7 @@
         links: {
             googleplus: "https://plus.google.com/+HarmonyDevelopermothivhe/posts",
             twitter: '',
-            facebook: '',
+            facebook: ''
         }
     }
 ]

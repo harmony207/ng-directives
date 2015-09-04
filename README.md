@@ -1,4 +1,4 @@
-# ng-directivesXT
+# ng-directivesXT Open Source
 
 By Ng-Directives Community
 

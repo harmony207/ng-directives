@@ -1,0 +1,32 @@
+<buttom ng-click="showDemo()">Show Demo</buttom>
+<section ng-if="showPopup">
+    <div class="latest_deals">
+        <div class="info">
+            <span data-ng-click="close(infos.Shop.id)" class="close_button"></span>
+            <div class="clearfix"></div>
+            <div class="envelope">
+                <img src="/img/week_deal.png">
+            </div>
+            <div class="desc">
+            <span class="_heading">
+                GET THE LATEST <br>DEALS EVERY WEEK
+            </span>
+            <span class="text">
+                Leave your email below and get our latest products and specials delivered to you every week
+            </span>
+            </div>
+        </div>
+        <div class="form">
+            <label>
+                Email address
+            </label>
+            <form name="EditEmailList_{{hash}}" id="EditEmailList" method="post">
+                <input class="email" type="text" name="email" value="">
+                <input type="hidden" name="_method" value="POST">
+                <input type="hidden" name="shop" value="shopsid">
+                <input type="button" class="button" value="GET DEALS" data-ng-click="SubmitEditEmailList(shopsid, id )">
+            </form>
+        </div>
+    </div>
+    <div data-ng-click="close(infos.Shop.id)" class="layer_container"></div>
+</section>

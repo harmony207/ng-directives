@@ -2,8 +2,6 @@
 
 By Ng-Directives Community
 
-url: http://ng-directivesXT.com
-
 An open source Angular JS Directives  
 
 A note to contributers 
